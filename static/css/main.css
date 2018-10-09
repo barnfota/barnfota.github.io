@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:300,400');
+
+html {
+    height: 100%;
+}
+
+body {
+    max-width: 70em;
+    margin: 2em auto;
+    padding:0;
+    color: #000;
+    background-color: #77b5e2;
+    background-image: url(../../static/images/wiese.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans","Segoe UI","Lucida Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 1.5em;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed","Segoe UI","Lucida Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 2em;
+    padding: 0;
+    position: relative;
+/*    border-color: rgba(50,153,204,0.7);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1em;
+    box-shadow: 0.6em 0.6em 3.5em 0.25em rgba(20,61,81,0.4);*/
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 1em;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.header {
+    padding: 0;
+    padding-top: 25%;
+    background-image: url(../../static/images/header/bg2.jpg);
+    background-size: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-width: 0;
+}
+
+.header .logoimg {
+    position: absolute;
+        top: 1em;
+	    left: 1em;
+	        text-decoration: none;
+		    border: none;
+		}
+
+.content {
+    padding: 1em;
+    background-image: -webkit-linear-gradient(top, rgba(119,181,226,0.7),rgba(255,255,255,0.7));
+}
+
+.footer {
+    padding: 1em;
+    background-color: rgba(252, 248, 206, 0.7);
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-width: 1em;
+}
+
+ul.horizontal {
+    text-align: center;
+}
+
+.horizontal li {
+    padding-right: 2em;
+    display: inline;
+    list-style-type: none;
+}
+
+strong {
+    font-weight: 400;
+}
